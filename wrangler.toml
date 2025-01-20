@@ -1,0 +1,17 @@
+name = "cloudflare-worker-tailwind"
+main = "src/index.ts"
+compatibility_date = "2025-01-19"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[env.dev]
+name = "cloudflare-worker-tailwind-dev"
+# account_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# route = { pattern = "カスタムドメイン", custom_domain = true }
+
+[env.prd]
+name = "cloudflare-worker-tailwind-prd"
+# account_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# route = { pattern = "カスタムドメイン", custom_domain = true }
